@@ -1,0 +1,110 @@
+
+#main-div{
+    
+    
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+    width: 700px;
+    height : 500px;
+    overflow: hidden;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    border-radius: 5px;
+    justify-content: center;
+}
+
+#top-div{
+
+  
+    height: 35%;
+    padding : 20px;
+}
+
+#bott-div{
+
+    display: flex;
+    flex-direction: row;
+    height: 65%;
+    color: white;
+   
+
+}
+
+#down-left{
+
+    
+    width: 50%;
+    background-color: #2ab2af;
+    padding: 20px;
+}
+
+#down-right{
+
+    width: 50%;
+    background-color: #2dcfcb;
+    padding: 20px;
+    
+}
+
+#top-div h2{
+
+    color: #2ab2af;
+}
+
+#top-div h4{
+
+    color: #c0df34;
+}
+
+#top-div{
+
+    color: #98a6bd;
+}
+
+#pricing{
+
+    position: relative;
+    top: -50px;
+    left: 70px;
+    opacity: 0.5;
+}
+
+#bott-div p{
+
+    margin-top: -25px;
+    opacity: 0.8;
+    font-size: 0.9rem;
+
+
+}
+
+button{
+
+    background-color: #c0df34;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    margin-top: 30px;
+
+    
+}
+
+button:hover{
+
+    cursor: pointer;
+    color: #788735;
+    transform: scale(1.02);
+}
+
+ul{
+
+    padding:0;
+    list-style: none;
+    margin-left: 25px;
+    opacity: 0.7;
+}
+
+#down-right h4{
+
+    margin-left: 25px;
+}
